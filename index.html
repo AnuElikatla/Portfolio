@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elikatla Anusha - Portfolio</title>
+    
+    <!-- Default theme loaded from localStorage -->
+    <link id="themeStylesheet" rel="stylesheet" href="styles2.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <div class="mainly first-mainly">
+        <header>
+            <nav>
+                <h1>Elikatla Anusha</h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://drive.google.com/file/d/1pObBIQY2hcqPlH-kQqsFV4O48S4ZxG6f/view?usp=sharing">Resume</a></li>
+                    <li><a onclick="switchTheme()" href="">Theme</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home">
+            <div class="intro">
+                <div class="profile-container"></div>
+                <div class="intro-text">
+                    <h2>Hello, I'm Elikatla Prudhvi</h2>
+                    <p>Web Developer | Creative Problem Solver | Cloud Computing | Innovator Turning Ideas into Impactful Digital Solutions</p>
+                </div>
+            </div>            
+        </section>
+
+        <section class="backgblack" id="about">
+            <h2>About Me</h2>
+            <p>B.Tech in Computer Science Engineering (CGPA: 8.46)</p>
+            <p style="display: inline;">Passionate about <p style=" 
+            display:inline;
+            text-shadow:  0 4px 6px rgba(0, 0, 0, 0.2);
+            text-transform: uppercase;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: larger;
+            ">To </p> work in a challenging environment with an opportunity to use my skills, to enrich my knowledge and to gain experience, which will in turn provide satisfaction and self-development. </p>
+        </section>
+    </div>
+
+    <div data-aos="zoom-in" data-aos-duration="1000" class="mainly">
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="backgblack">
+                <h3>Portfolio Website</h3>
+                <p>Responsive web application showcasing skills and projects. Built with React.</p>
+            </div>
+            <div class="backgblack">
+                <h3>Bank account management</h3>
+                <p>Developed a bank account management by using OOP concepts to model real-world banking operations.</p>
+            </div>
+            <div class="backgblack">
+                <h3>Weather App</h3>
+                <p>Designed a responsive user interface with dynamic weather icons and user-friendly layout,by using HTML,CSS and Javascript.</p>
+            </div>
+        </section>
+    </div>
+
+    <div data-aos="zoom-in" data-aos-duration="1000" class="mainly">
+        <section class="backgblack" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming: Java, Python</li>
+                <li>Web: HTML, CSS, JavaScript</li>
+                <li>Soft Skills: Problem Solving, Critical Thinking</li>
+            </ul>
+        </section>
+        <section class="backgblack" id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:anushaellikatla@gmail.com">anushaellikatla@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/AnuElikatla" target="_blank" rel="noopener">Elikatla_Anusha</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/anusha-elikatla-958ba1270" target="_blank" rel="noopener">Elikatla Anusha</a></p>
+        </section>
+
+        <footer>
+            <p> All content belongs to Elikatla Anusha.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>
